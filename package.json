@@ -1,0 +1,21 @@
+{
+  "name": "payslip-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "phantomjs-prebuilt": "^2.1.16",
+    "standard": "^5.4.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.7.2"
+  },
+  "dependencies": {
+    "html-pdf": "^3.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
